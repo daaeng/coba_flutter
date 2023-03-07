@@ -1,3 +1,8 @@
+// pull project
+// git init
+// git remote add origin https://github.com/daaeng/coba_flutter.git
+// git pull origin main
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
